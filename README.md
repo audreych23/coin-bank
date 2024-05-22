@@ -5,15 +5,19 @@ A coin bank designed in transistor level in Hspice and layouting is also done in
 To be more specific, the coin bank stores money and it can also show money in the monitor of what is the current amount in the bank, or how much money is put in the bank at that moment
 
 ![Block Diagram](picture/block_diagram.png)
+
 block_diagram
 
 ![Sample Architecture](picture/sample_architecture.png)
+
 The sample architecture of the coin bank
 
 ![State Table](picture/state_table.png)
+
 State Diagram
 
 ![Monitor State](picture/state_monitor.png)
+
 The monitor depending on the current state
 
 ## Pre Simulation
@@ -22,6 +26,7 @@ The pre-sim file is located at pre_sim folder which contains the pre simulation 
 ## Layout 
 After the pre-sim the layout are then drawn using virtuoso.
 ![layout](picture/Layout.png)
+
 Final layout
 
 For more layout per different logic gate that is used, it is explained and shown in report.pdf
